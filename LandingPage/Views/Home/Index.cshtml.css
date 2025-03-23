@@ -1,0 +1,168 @@
+﻿:root {
+    --black: #000;
+    --white: #eeeeee;
+    --blue: #0088cc;
+}
+
+main {
+    background-color: var(--white);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.main-section {
+    background-color: var(--white);
+    padding-inline: 64px;
+    margin-bottom: 40px;
+    display: block;
+    justify-content: center;
+}
+
+.main-section .box-main-text {
+    display: block;
+    margin-bottom: 32px;
+}
+
+.main-section .box-main-text h5 {
+    text-align: center;
+    margin-top: 32px;
+}
+
+.main-section .box-main-text h1 {
+    text-align: center;
+}
+
+.main-section .box-main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+}
+
+.main-section .box-image {
+    max-width: 400px;
+    margin-left: 72px;
+}
+
+.main-section .box-product-info {
+    padding: 16px;
+    display: inline;
+    float: right;
+    justify-content: center;
+    width: 464px;
+}
+
+.main-section .box-rate {
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+}
+
+.main-section .estrela {
+    color: #ffcc00;
+    margin-block: 4px;
+}
+
+.main-section .buy-btn {
+    border: none;
+    border-radius: 12px;
+    padding: 12px;
+    background-color: #0048b9;
+    color: #fff;
+    font-weight: 600;
+}
+
+
+.pro-section {
+    width: 100%;
+    background-color: #000;
+}
+
+.box-pro-info {
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pro-section .box-description {
+    width: 300px;
+    padding-block: 64px;
+}
+
+
+.review-section {
+    width: 100%;
+    display: block;
+    align-items: center;
+    padding-block: 64px;
+}
+
+.review-section .box-review-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.review-section .box-review {
+    width: 240px;
+    text-align: center;
+    margin-top: 48px;
+}
+
+.review-section .box-review .estrela {
+    color: #ffcc00;
+    font-size: 16px;
+}
+
+
+.qa-section {
+    background-color: #003ca9;
+    color: #fff;
+    padding-inline: 64px;
+    padding-block: 32px;
+}
+
+.qa-section .qa-content-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.qa-section .box-qa {
+    width: 400px;
+    margin-top: 40px;
+}
+
+.qa-section .qa-image {
+    width: 400px;
+}
+
+.qa-section .qa-image img {
+    width: 80%;
+    border-radius: 8px;
+}
+
+.banner-section {
+    background-image: url("/banner.jpg");
+    background-size: auto;
+    padding-block: 16px;
+    gap: 16px;
+    text-align: center;
+    color: #000;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-section .buy-btn {
+    border: none;
+    border-radius: 12px;
+    padding: 12px;
+    background-color: #0048b9;
+    color: #fff;
+    font-weight: 600;
+}
